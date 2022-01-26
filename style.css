@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circular {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circular .inner {
+  width: 120px;
+  height: 120px;
+  z-index: 100;
+  background: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.circular .bar {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  border-radius: 100%;
+  -webkit-transform: rotate(14deg);/* use this to rotate the progress bar*/
+          transform: rotate(14deg);
+  clip: rect(0px, 150px, 170px, 45px);
+  /* use rect for change in progress bar*/
+}
+/*# sourceMappingURL=style.css.map */
